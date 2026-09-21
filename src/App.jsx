@@ -34,7 +34,7 @@ export default function App() {
       .catch((e) =>
         setLoadError(
           `No se pudo conectar con el backend (${e.message}). ¿Está corriendo en ${
-            import.meta.env.VITE_API_URL || "http://localhost:8000"
+            import.meta.env.VITE_API_URL || "http://localhost:8002"
           }?`
         )
       );
